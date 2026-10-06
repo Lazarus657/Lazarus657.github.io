@@ -17,7 +17,7 @@ export default defineConfig({
     ],
     sidebar: [
       { text: '从这里开始', items: [{ text: '欢迎', link: '/' }, { text: '如何写笔记', link: '/guide/writing' }] },
-      { text: '学习笔记', collapsed: false, items: [{ text: '笔记索引', link: '/notes/' }, { text: 'Markdown 入门', link: '/notes/markdown' }] },
+      { text: '学习笔记', collapsed: false, items: [{ text: '笔记索引', link: '/notes/' }, { text: '秋招硬件面试笔记', link: '/notes/hardware-interview' }, { text: 'Markdown 入门', link: '/notes/markdown' }] },
       { text: '动手实践', items: [{ text: '项目记录', link: '/projects/' }] },
       { text: '解决问题', items: [{ text: '问题记录', link: '/troubleshooting/' }] },
       { text: '关于本站', items: [{ text: '关于', link: '/about' }] }
