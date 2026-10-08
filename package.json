@@ -3,10 +3,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
+    "docs:dev": "node scripts/generate-activity.mjs && vitepress dev docs",
+    "docs:build": "node scripts/generate-activity.mjs && vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "devDependencies": { "vitepress": "1.6.4" },
+  "devDependencies": {
+    "vitepress": "1.6.4",
+    "vitepress-theme-teek": "1.6.2",
+    "vue": "3.5.43"
+  },
   "packageManager": "pnpm@10.11.0"
 }

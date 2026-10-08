@@ -1,3 +1,12 @@
+---
+title: 秋招硬件面试笔记
+date: 2026-10-06 22:39:09
+categories: [硬件学习]
+tags: [模拟电路, FPGA, 电源, PCB, 面试]
+description: 从 ADC 与运放选型，到 FPGA、电源和 PCB 测试，整理秋招准备中的硬件知识与问答。
+coverImg: /covers/hardware.svg
+---
+
 # 秋招硬件面试笔记
 
 Q＆A

@@ -1,3 +1,12 @@
+---
+title: Markdown 入门
+date: 2026-10-06 22:26:29
+categories: [工具与写作]
+tags: [Markdown, 写作]
+description: 用标题、列表、链接和代码块，把学习过程整理成一篇清晰的笔记。
+coverImg: /covers/writing.svg
+---
+
 # Markdown 入门
 
 Markdown 用简单的文本标记表达文章结构。本篇是示例笔记，可以替换成自己的学习内容。

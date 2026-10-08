@@ -1,6 +1,18 @@
 # 学习手记
 
-基于 VitePress 的中文个人学习笔记站。
+基于 VitePress 与 Teek 的中文个人学习笔记站，包含文章卡片、分类标签与每日更新点格图。
+
+## 每日更新图
+
+首页展示最近 365 天的笔记更新。数据来自 Git 历史中的 `docs/notes`、`docs/projects`、`docs/troubleshooting` 的 Markdown 新增和修改，不统计 `index.md` 和主题配置；同一天同一篇笔记只计一次。日期按北京时间计算。构建需要完整 Git 历史。
+
+提交后自动更新；GitHub Actions 每天北京时间 00:15 计划重新部署，实际运行时间可能延后。
+
+## 主题 DIY
+
+`docs/.vitepress/config.ts` 的 Teek 配置可以调整首页 Banner、博主信息、文章卡片和阅读布局。`docs/.vitepress/theme/style.css` 控制配色和点格图外观。
+
+文章可在开头添加 `title`、`date`、`categories`、`tags`、`description`、`coverImg`，用于首页卡片和分类。封面放在 `docs/public/covers`。
 
 ## 本地运行
 
