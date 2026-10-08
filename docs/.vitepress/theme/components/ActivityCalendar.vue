@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import { computed, onMounted, onUnmounted, ref } from 'vue'
+import { useData } from 'vitepress'
 import activity from '../../data/activity.json'
 import { calendarDays, shanghaiDate } from '../../../../scripts/activity.mjs'
 const today = ref(activity.today)
+const { frontmatter } = useData()
 const selected = ref('')
 let timer: ReturnType<typeof setInterval> | undefined
 onMounted(() => {
@@ -25,7 +27,7 @@ const months = computed(() => {
 })
 </script>
 <template>
-  <section class="activity-card" aria-labelledby="activity-title">
+  <section v-if="!frontmatter.categoriesPage && !frontmatter.tagsPage" class="activity-card" aria-labelledby="activity-title">
     <div class="activity-heading">
       <div><span class="eyebrow">A LITTLE, EVERY DAY</span><h2 id="activity-title">学习的足迹<span class="live-dot" /></h2></div>
       <div class="activity-summary"><strong>{{ total }}</strong> 次笔记更新<span>过去一年 · {{ activeDays }} 个活跃日</span></div>
