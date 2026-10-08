@@ -10,3 +10,4 @@ article: false
 ## 学习复盘
 
 - [双向 DCDC 源码学习复盘：易错点与迁移要点](./dcdc-review) — 基于 STM32F334 工程，梳理通信、采样、PWM、控制和保护的关键问题。
+- [DCDC 学习复盘（二）：执行框架、中断与闭环时序](./dcdc-review-stage-2) — 核对执行频率、中断使能、HAL 回调、PWM/ADC 时序与闭环调用关系。

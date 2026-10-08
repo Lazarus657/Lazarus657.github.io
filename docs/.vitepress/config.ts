@@ -44,7 +44,7 @@ export default defineConfig({
       { text: '从这里开始', items: [{ text: '欢迎', link: '/' }, { text: '如何写笔记', link: '/guide/writing' }] },
       { text: '学习笔记', collapsed: false, items: [{ text: '笔记索引', link: '/notes/' }, { text: '秋招硬件面试笔记', link: '/notes/hardware-interview' }, { text: 'Markdown 入门', link: '/notes/markdown' }] },
       { text: '数字信号处理', collapsed: false, items: [{ text: '学习目录', link: '/notes/digital-signal-processing/' }, { text: '实验1：采样、混叠与ADC量化', link: '/notes/digital-signal-processing/experiment-1' }] },
-      { text: '学学笔记', collapsed: false, items: [{ text: '笔记目录', link: '/notes/xuexue/' }, { text: '双向 DCDC 源码学习复盘', link: '/notes/xuexue/dcdc-review' }] },
+      { text: '学学笔记', collapsed: false, items: [{ text: '笔记目录', link: '/notes/xuexue/' }, { text: '双向 DCDC 源码学习复盘', link: '/notes/xuexue/dcdc-review' }, { text: 'DCDC 复盘（二）：框架与中断', link: '/notes/xuexue/dcdc-review-stage-2' }] },
       { text: '动手实践', items: [{ text: '项目记录', link: '/projects/' }] },
       { text: '解决问题', items: [{ text: '问题记录', link: '/troubleshooting/' }] },
       { text: '关于本站', items: [{ text: '关于', link: '/about' }] }

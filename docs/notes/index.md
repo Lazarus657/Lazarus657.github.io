@@ -23,6 +23,7 @@ article: false
 
 - [学学笔记目录](./xuexue/) — 学习复盘与易错点整理。
 - [双向 DCDC 源码学习复盘](./xuexue/dcdc-review) — VOFA、DMA、ADC、HRTIM、PI 与保护状态机的易错点和迁移要点。
+- [DCDC 学习复盘（二）：执行框架、中断与闭环时序](./xuexue/dcdc-review-stage-2) — 执行频率、中断与回调、采样和控制时序的阶段复盘。
 
 ## 记录方法
 
